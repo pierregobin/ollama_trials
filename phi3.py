@@ -10,7 +10,7 @@ from langchain.chains import RetrievalQA
 # -----------------------
 # CONFIG
 # -----------------------
-PDF_PATH = "its-HLS.pdf"  # <-- change this
+PDF_PATH = "GORIUS_Jean-michel.pdf"  # <-- change this
 MODEL_NAME = "phi3"
 
 # -----------------------
