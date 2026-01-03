@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 
 from langchain_community.document_loaders import PyPDFLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import FAISS
+#from langchain_community.embeddings import HuggingFaceEmbeddings
+#from langchain_community.vectorstores import FAISS
 from langchain_community.llms import Ollama
-from langchain.chains import RetrievalQA
+#from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_classic.chains import RetrievalQA
+from langchain_text_splitters import RecursiveCharacterTextSplitter
+from langchain_huggingface import HuggingFaceEmbeddings
 
+from langchain_community.vectorstores import FAISS
 # -----------------------
 # CONFIG
 # -----------------------
